@@ -32,7 +32,8 @@ for tweet in public_tweets:
     print(tweet.text)
     analysis = TextBlob(tweet.text)
     print(analysis.sentiment)
-
+    
+# the above print statement returns polarity and subjectivity
 # polarity measures how negative or positive the text is
 # subjectivity measures how much of an opinion it is versus how factual
 
